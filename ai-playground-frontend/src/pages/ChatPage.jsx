@@ -75,7 +75,7 @@ function ChatPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#191a1a] via-[#222223] to-[#302f30] flex flex-col text-white transition-all">
-      {/* Top Section */}
+
       <div className="w-full max-w-5xl mx-auto py-6 px-4 sm:px-8 text-center space-y-3">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold pt-20 md:pt-40 tracking-tight drop-shadow-lg">
           OmniMind
@@ -87,7 +87,6 @@ function ChatPage() {
         </p>
       </div>
 
-      {/* Chat Messages */}
 <div className="flex-1 overflow-y-auto px-4 py-20 sm:px-8 w-full  max-w-5xl mx-auto space-y-4 pb-28 sm:pb-36">        {messages.map((m, idx) => (
           <div
             key={idx}

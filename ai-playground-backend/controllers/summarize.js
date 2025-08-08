@@ -1,4 +1,4 @@
-// controllers/summarize.js
+
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import dotenv from "dotenv";
 dotenv.config();
@@ -11,7 +11,7 @@ export const handleSummarize = async (req, res) => {
       return res.status(400).json({ error: "No file uploaded" });
     }
 
-    // Convert uploaded file to text
+
     const fileText = req.file.buffer.toString("utf-8");
 
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });

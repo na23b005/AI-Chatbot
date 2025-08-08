@@ -10,10 +10,9 @@ export const handleConversation = async (req, res) => {
       return res.status(400).json({ error: "No audio file uploaded" });
     }
 
-    // Convert audio buffer to Base64
+  
     const audioBase64 = req.file.buffer.toString("base64");
 
-    // Single call to Gemini-1.5-flash to handle everything
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const result = await model.generateContent([
@@ -42,7 +41,6 @@ export const handleConversation = async (req, res) => {
 
     const outputText = result.response.text();
 
-    // Separate transcript and summary based on format markers
     const transcriptMatch = outputText.match(/=== TRANSCRIPT ===([\s\S]*?)=== SUMMARY ===/);
     const summaryMatch = outputText.match(/=== SUMMARY ===([\s\S]*)/);
 

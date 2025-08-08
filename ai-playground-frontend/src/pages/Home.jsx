@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#191a1a] via-[#222223] to-[#302f30] text-white flex flex-col">
-      {/* Navigation */}
+
       <nav className="flex justify-between items-center px-8 py-5 border-b border-white/10 backdrop-blur-md bg-black/40 sticky top-0 z-50">
         <h1 className="text-2xl font-extrabold tracking-tight text-white drop-shadow-lg">
           OmniMind
@@ -21,7 +21,7 @@ function HomePage() {
         </div>
       </nav>
 
-      {/* Hero Section */}
+
       <header className="flex-1 flex flex-col items-center justify-center text-center px-6 pt-20 md:pt-32">
         <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg leading-tight">
           One AI, Many Skills  All in One Place
@@ -38,7 +38,7 @@ function HomePage() {
         </Link>
       </header>
 
-      {/* Features Section */}
+
       <section id="features" className="py-20 px-6 max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
         <div className="bg-black/60 p-6 rounded-2xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-300">
           <h3 className="text-xl font-bold mb-3">🎙 Conversation Analysis</h3>
@@ -60,7 +60,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
+
       <footer className="text-center py-6 text-gray-500 border-t border-white/10">
         © {new Date().getFullYear()} OmniMind. All rights reserved.
       </footer>
