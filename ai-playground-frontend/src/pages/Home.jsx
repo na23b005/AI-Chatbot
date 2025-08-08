@@ -8,7 +8,7 @@ function HomePage() {
         <h1 className="text-2xl font-extrabold tracking-tight text-white drop-shadow-lg">
           OmniMind
         </h1>
-        <div className="flex gap-6 text-gray-300 font-medium align-center ">
+        <div className="md:flex hidden gap-6 text-gray-300 font-medium align-center ">
           <a href="#features" className="hover:text-white transition-colors">Features</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
          <a> <Link
