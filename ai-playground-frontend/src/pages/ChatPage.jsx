@@ -33,7 +33,7 @@ function ChatPage() {
           formData.append("text", input);
         }
 
-        const response = await fetch("http://localhost:5000/conversation", {
+        const response = await fetch("https://pilvo.onrender.com/conversation", {
           method: "POST",
           body: formData,
         });
@@ -56,7 +56,7 @@ function ChatPage() {
   // Match the multer field name
   formData.append("image", file);
 
-  const response = await fetch("http://localhost:5000/image", {
+  const response = await fetch("https://pilvo.onrender.com/image", {
     method: "POST",
     body: formData,
   });
