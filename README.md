@@ -100,20 +100,19 @@ npm run dev
 
 ## Usage
 
-1. **Login** to the application.
-2. Select a skill:
+
+1. Select a skill:
 
    * **Conversation Analysis**: Upload an audio file → get transcription + diarization.
    * **Image Analysis**: Upload an image → get AI-generated description.
-   * **Document/URL Summarization**: Upload a PDF/DOC or paste a URL → get summary.
-3. View results directly in the app interface.
+1. View results directly in the app interface.
 
 ---
 
 ## API Hosting
 
 * Backend is deployed at: **`https://pilvo.onrender.com`**
-* Make sure your frontend `.env` (if applicable) points API calls to this URL.
+* Make sure your frontend `.env` (if applicable) points API calls to this URL.OR PORT 5000 can be used in backend
 
 ---
 
@@ -123,6 +122,3 @@ This repository contains both the frontend and backend code for the AI Playgroun
 
 ---
 
-I can also make this README **visually richer** with badges, screenshots, and quick-start commands so it looks professional like an open-source portfolio project.
-
-Do you want me to do that next? That’ll make it look great for GitHub reviewers.
