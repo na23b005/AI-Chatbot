@@ -1,39 +1,4 @@
-# AI Playground
-OmniMind
-one AI, many capabilities
-Analyze conversations, interpret images, and summarize documents
-all in one place.
-## Objective
 
-The **AI Playground** is a multi-modal application that allows authenticated users to explore and interact with various AI-powered skills in a single platform.
-
-The core capabilities include:
-
-1. **Conversation Analysis**
-
-   * Upload audio files.
-   * Convert speech to text (STT).
-   * Perform **speaker diarization** (up to 2 speakers) without relying on STT vendor diarization.
-
-2. **Image Analysis**
-
-   * Upload images.
-   * Generate **detailed textual descriptions** for the content of the image.
-
-3. **Document/URL Summarization** (IN backend code not integrated due to time constraints)
-
-   * Upload documents (PDF, DOC).
-   * Provide URLs.
-   * Obtain **concise summaries** of the content.
-
----
-
-## Live Demo
-
-* **Frontend:** [https://pilvotask.netlify.app/](https://pilvotask.netlify.app/)
-* **Backend API:** [https://pilvo.onrender.com](https://pilvo.onrender.com)
-
----
 
 ## Tech Stack
 
@@ -41,11 +6,6 @@ The core capabilities include:
 * **Backend:** Node.js + Express
 * **AI Models:** Google Gemini API (via `GEMINI_API_KEY`)
 * **Hosting:**
-
-  * Frontend → Netlify
-  * Backend → Render
-
----
 
 ## Features
 
