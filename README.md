@@ -6,6 +6,8 @@
 * **Backend:** Node.js + Express
 * **AI Models:** Google Gemini API (via `GEMINI_API_KEY`)
 * **Hosting:**
+* Frontend: https://pilvotask.netlify.app/
+* Backend API: https://pilvo.onrender.com
 
 ## Features
 
