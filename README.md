@@ -1,13 +1,13 @@
 
 
-## Tech Stack
+## 🚀 Tech Stack
 
-* **Frontend:** React + Vite (or chosen framework)
-* **Backend:** Node.js + Express
-* **AI Models:** Google Gemini API (via `GEMINI_API_KEY`)
-* **Hosting:**
-* Frontend: https://pilvotask.netlify.app/
-* Backend API: https://pilvo.onrender.com
+- **Frontend:** React + Vite  
+- **Backend:** Node.js + Express  
+- **AI Models:** Google Gemini API (via `GEMINI_API_KEY`)  
+- **Hosting:**  
+  - **Frontend:** [pilvotask.netlify.app](https://pilvotask.netlify.app/)  
+  - **Backend API:** [pilvo.onrender.com](https://pilvo.onrender.com)  
 
 ## Features
 
